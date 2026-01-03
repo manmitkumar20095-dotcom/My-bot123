@@ -8,7 +8,7 @@ from pymongo import MongoClient
 API_TOKEN = '8543013467:AAGcpyMVcTgKCg5eKn5gBX2u4I8qZHiWdhU'      # BotFather wala token
 GPLINKS_API = ' eb68eb5b11a608931184c9ed2ac1d22b2bbdf3a3'  # GPLinks Dashboard se
 OMDB_API_KEY = '60c05c55'    # OMDb se mili 8-digit key
-MONGO_URL = ' mongodb+srv://manmitkumar20095_db_user:Manmit1234@cluster0.nbklxej.mongodb.net/?appName=Cluster0' # Password ke sath wala link
+MONGO_URL = 'mongodb+srv://manmitkumar20095_db_user:Manmit1234@cluster0.nbklxej.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0' # Password ke sath wala link
 BOT_USERNAME = 'mkgivelink_bot'              # Bot ka username (bina @ ke)
 CHANNEL_ID = '@Latest movies'           # Channel ka username (@ ke sath)
 ADMIN_ID =   7352169748                   # Aapki Numeric ID (@userinfobot se lein)
