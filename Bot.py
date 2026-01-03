@@ -5,7 +5,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pymongo import MongoClient
 
 # --- CONFIGURATION (In 7 Lines Ko Edit Karein) ---
-API_TOKEN = '8543013467:AAGcpyMVcTgKCg5eKn5gBX2u4I8qZHiWdhU'      # BotFather wala token
+API_TOKEN = '8543013467:AAEJaUYbWux35ALyPAZcMZr3Vj4q3pL1h_A'      # BotFather wala token
 GPLINKS_API = ' eb68eb5b11a608931184c9ed2ac1d22b2bbdf3a3'  # GPLinks Dashboard se
 OMDB_API_KEY = '60c05c55'    # OMDb se mili 8-digit key
 MONGO_URL = 'mongodb+srv://manmitkumar20095_db_user:Manmit1234@cluster0.nbklxej.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0' # Password ke sath wala link
@@ -110,7 +110,7 @@ def home():
     return "I am alive"
 
 def run():
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
+   app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000))) 
 
 def keep_alive():
     t = Thread(target=run)
