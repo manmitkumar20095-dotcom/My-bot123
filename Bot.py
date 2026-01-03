@@ -99,4 +99,5 @@ def finalize_post(message):
     bot.send_message(chat_id, "✅ **Post Successfully uploaded to Channel!**")
     del user_temp_data[chat_id]
 
+import os; from threading import Thread; from flask import Flask; app = Flask(''); @app.route('/')\ndef home(): return "I am alive";\ndef run(): app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)));\nThread(target=run).start()
 bot.infinity_polling()
